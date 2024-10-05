@@ -1,29 +1,28 @@
-# book_store_api
-Book Store API
+# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
 
-# Usage
-- Install Mongo DB on your local machine or use Mongo DB Cloud -> [Go To MongoDB Website](https://www.mongodb.com)
-- Create `images` folder in your project
+##Features
+- Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
+- Authentication && Authorization with JWT
+- Real-time messaging with Socket.io
+- Online user status (Socket.io and React Context)
+- Global state management with Zustand
+- Error handling both on the server and on the client
+- And more!
 
-## Environment Variables
-Create `.env` file in the root of your project and add the following
-
+Setup .env file
 ```
-MONGO_URI= your mongodb uri
-PORT= 8000
-NODE_ENV= development
-JWT_SECRET_KEY= your jwt secret key
-USER_EMAIL= your email service for sending email
-USER_PASS= your email service password
-```
-
-## Install Dependencies
-```
-npm install
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
 ```
 
-## Run
+Build the app
+```
+npm run build
+```
+
+Start the app
 ```
 npm start
 ```
-
