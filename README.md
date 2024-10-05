@@ -1,8 +1,29 @@
-# React + Vite
+# book_store_api
+Book Store API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Usage
+- Install Mongo DB on your local machine or use Mongo DB Cloud -> [Go To MongoDB Website](https://www.mongodb.com)
+- Create `images` folder in your project
 
-Currently, two official plugins are available:
+## Environment Variables
+Create `.env` file in the root of your project and add the following
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+MONGO_URI= your mongodb uri
+PORT= 8000
+NODE_ENV= development
+JWT_SECRET_KEY= your jwt secret key
+USER_EMAIL= your email service for sending email
+USER_PASS= your email service password
+```
+
+## Install Dependencies
+```
+npm install
+```
+
+## Run
+```
+npm start
+```
+
